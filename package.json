@@ -1,0 +1,29 @@
+{
+  "name": "bmi-calculator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node .",
+    "dev": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rayyyan/bmi-calculator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rayyyan/bmi-calculator/issues"
+  },
+  "homepage": "https://github.com/rayyyan/bmi-calculator#readme",
+  "devDependencies": {
+    "@types/inquirer": "^8.2.0",
+    "typescript": "^4.6.2"
+  },
+  "dependencies": {
+    "inquirer": "^8.2.1"
+  }
+}
